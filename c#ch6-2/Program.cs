@@ -151,10 +151,25 @@ namespace c_ch6_2
             //    Console.WriteLine("請重新輸入");
             //}Console.ReadKey();
 
-            //補充4輸入的字，轉成HTML，例如輸入Justin,Amy,David 輸出<ul>        <li>Justin<li>                <li>Amy<li>        <li>David<li></ul>
+            //補充4輸入的字，轉成HTML，例如輸入Justin,Amy,David 輸出
+            //<ul>
+            //    <li>Justin<li>
+            //    <li>Amy<li>
+            //    <li>David<li>
+            //</ul>
+            //Console.WriteLine("請輸入名字 用逗號分隔 ex.Justin,Amy,David");
+            //string input = Console.ReadLine();
+            //string[]name= input.Split(',');
+
+            //Console.WriteLine("<ul>");
+            //foreach (string a in name)
+            //{
+            //    Console.WriteLine($"<li>{a}<li>");
+            //}
+            //Console.WriteLine("<ul>");
+            //Console.ReadKey();
 
             //補充5輸入5處數字，用空白隔開，輸出結果。
-
             //例如：輸入‘11 19 12 25 1 7 12，輸出總和是87
             //--->Split(' '); // 使用空格作為分隔符
             //Console.WriteLine("請輸入5個數字，用空白隔開");
