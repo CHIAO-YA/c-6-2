@@ -1,0 +1,7 @@
+C:\Users\acer\Desktop\C#\c#ch6-2\c#ch6-2\bin\Debug\c#ch6-2.exe.config
+C:\Users\acer\Desktop\C#\c#ch6-2\c#ch6-2\bin\Debug\c#ch6-2.exe
+C:\Users\acer\Desktop\C#\c#ch6-2\c#ch6-2\bin\Debug\c#ch6-2.pdb
+C:\Users\acer\Desktop\C#\c#ch6-2\c#ch6-2\obj\Debug\c#ch6-2.csproj.AssemblyReference.cache
+C:\Users\acer\Desktop\C#\c#ch6-2\c#ch6-2\obj\Debug\c#ch6-2.csproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\C#\c#ch6-2\c#ch6-2\obj\Debug\c#ch6-2.exe
+C:\Users\acer\Desktop\C#\c#ch6-2\c#ch6-2\obj\Debug\c#ch6-2.pdb
