@@ -140,67 +140,52 @@ namespace c_ch6_2
             //補充3輸入時間，顯示幾時幾分，例如輸入11:30，輸出11點30分。
             //Console.WriteLine("請輸入時間: ex:12:30");
             //string input = Console.ReadLine();
-            //string[] time = input.Split(':');//分割時間字串
-            //if(time.Length ==2)//2位數
+            //if (DateTime.TryParse(input,out DateTime time))
             //{
-            //    string hour = time[0];
-            //    string minute = time[0];
-            //    Console.WriteLine($"{hour}點{minute}分");
+            //    Console.WriteLine($"{time.Hour}點{time.Minute}分");
             //}
-            //else{
+            //else
+            //{
             //    Console.WriteLine("請重新輸入");
-            //}Console.ReadKey();
-
-            //補充4輸入的字，轉成HTML，例如輸入Justin,Amy,David 輸出
-            //<ul>
-            //    <li>Justin<li>
-            //    <li>Amy<li>
-            //    <li>David<li>
-            //</ul>
-            //Console.WriteLine("請輸入名字 用逗號分隔 ex.Justin,Amy,David");
-            //string input = Console.ReadLine();
-            //string[]name= input.Split(',');
-
-            //Console.WriteLine("<ul>");
-            //foreach (string a in name)
-            //{
-            //    Console.WriteLine($"<li>{a}<li>");
             //}
-            //Console.WriteLine("<ul>");
             //Console.ReadKey();
 
-            //補充5輸入5處數字，用空白隔開，輸出結果。
+            //補充4輸入的字，轉成HTML，例如輸入Justin,Amy,David 輸出
+            //< ul >
+            //    < li > Justin<li>
+            //    < li > Amy<li>
+            //    < li > David<li>
+            //</ ul >
+            Console.WriteLine("請輸入名字 用逗號分隔 ex.Justin,Amy,David");
+            string input = Console.ReadLine();
+            string[] name = input.Split(',');
+            Console.WriteLine("<ul>");
+            foreach (string a in name)
+            {
+                Console.WriteLine($"<li>{a}<li>");
+            }
+            Console.WriteLine("<ul>");
+            Console.ReadKey();
+
+            //補充5輸入5處數字，用空白隔開，輸出總和。
             //例如：輸入‘11 19 12 25 1 7 12，輸出總和是87
             //--->Split(' '); // 使用空格作為分隔符
             //Console.WriteLine("請輸入5個數字，用空白隔開");
             //string input = Console.ReadLine();
-            //string[] fivenumber = input.Split(' ');
-            //int sum = 0;
-            //foreach (string number in fivenumber)
-            //{
-            //    sum += int.Parse(number);
-            //}
+            //int sum = input.Split(' ')
+            //          .Select(int.Parse)
+            //          .Sum();
             //Console.WriteLine("總和是:" + sum);
             //Console.ReadKey();
 
             //補充6輸入一串文字，倒著輸出，例如輸入：Justin，輸出nitsuJ
-            //--->char[] charArray = input.ToCharArray();：將字串轉換為字符陣列。
-            //--->Array.Reverse(charArray);：反轉字符陣列
-            //    Console.Write("輸入一段字: ");
-            //    string input = Console.ReadLine();
-            //    string output = name(input);
-            //    Console.WriteLine(output);
-            //    Console.ReadKey();
-            //}
-            //static string name(string input) {
-            //    string result = "";
-            //    for (int i = input.Length - 1; i >= 0; i--)//每次迭代將字串反向順序到result
-            //    {
-            //        result += input[i];
-            //    }
-            //    return result;
-
-
+            //Console.Write("輸入一段字: ");
+            //string input = Console.ReadLine();
+            //char[] output = input.ToCharArray();// 將字串轉換為字符陣列
+            //Array.Reverse(output); //反轉字符陣列
+            //string a = new string(output);
+            //Console.Write(a);
+            //Console.ReadKey();
         }
     }
 }
